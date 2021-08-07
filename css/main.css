@@ -90,7 +90,6 @@ a:hover {
 }
 
 .cwdh {
-    
     padding: 50px 100px 50px 100px;
 }
 
@@ -415,8 +414,8 @@ ul {
 }
 
 .cw {
+    max-width: 942px;
     margin: 0 100px 0 100px;
-
 }
 
 .a3--modify {
