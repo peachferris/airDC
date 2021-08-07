@@ -401,7 +401,7 @@ ul {
 }
 
 .fr1-1 {
-    background-image: url(/img/bg-f.jpg);
+    background-image: url(../img/bg-f.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
