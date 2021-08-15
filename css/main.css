@@ -38,26 +38,28 @@ body {
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 3.6rem;
     text-transform: uppercase;
 }
 
 .p3 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 300;
     line-height: 1.2;
+    
 }
+
 p {
-    font-size: 1.01rem;
+    font-size: 1.4rem;
     color: #000;
 }
 
 .h4-1 {
-    font-size: 1.01rem;
+    font-size: 1.8rem;
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .fr8 {
@@ -121,14 +123,14 @@ a:hover {
 }
 
 .a4 {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-family: "HelveticaNeueCyrBold", sans-serif; 
 }
 
 .a2-1 {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     font-family: "HelveticaNeueCyrBold", sans-serif; 
 }
 
@@ -146,7 +148,7 @@ a:hover {
 }
 
 .li-5::marker {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
 }
 
 .li-1 {
@@ -155,7 +157,7 @@ a:hover {
 }
 
 .hp3 {
-    margin: 2.4rem 0 0;
+    margin: 9.3rem 0 0;
     text-align: center;
 }
 
@@ -175,12 +177,15 @@ a:hover {
 ul {
     list-style: none;
     flex-wrap: wrap;
-    font-size: 1.01rem;
+    font-size: 1.8rem;
     align-items: baseline;
+    padding: 0;
+    margin: 2.2rem 0 0;
 }
 
 .ul-1 {
-    margin-left: -38px;
+    align-items: baseline;
+    padding: 6rem 0 5rem;
 }
 
 .menu-btn {
@@ -188,7 +193,7 @@ ul {
 }
 
 .hp4 {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .fr6-1 svg {
@@ -213,13 +218,13 @@ ul {
 
 .p1 {
     color: #11328d;
-    width: 240px;
-    font-size: 1.1rem;
+    max-width: 240px;
+    font-size: 1.8rem;
 }
 
 .a1 {
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .hp7 {
@@ -229,16 +234,16 @@ ul {
 .p4 {
     color: #000;
     width: 90%;
-    font-size: 1.05rem;
+    font-size: 1.8rem;
 }
 
 .p6 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     color: #11328d;
 }
 
 .p6-a {
-    font-size: 1.15rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
@@ -251,7 +256,7 @@ ul {
 
 .h2-1 {
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 2.8rem;
 }
 
 .fr7 {
@@ -260,6 +265,7 @@ ul {
 }
 
 .hp5 {
+    margin: 5rem auto 20rem;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -273,7 +279,7 @@ ul {
 }
 
 .fr1 {
-    padding-bottom: 50px;
+    padding-bottom: 9.5rem;
     position: relative;
     display: flex;
     text-align: right;
@@ -298,7 +304,7 @@ ul {
 }
 
 .sp4 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: bold;
     margin: -1rem 0 0.6rem;
     color: #000;
@@ -358,7 +364,7 @@ ul {
 }
 
 .a2 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-family: "HelveticaNeueCyrBold", sans-serif; 
 }
 
@@ -411,7 +417,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
-    margin-bottom: 60px;
+    margin: 11.5rem 0 9.5rem;
 }
 
 .cw {
@@ -448,14 +454,11 @@ ul {
     margin-right: 5px;
 }
 
+
 /*Media*/
 @media (max-width: 1024px) {
     .hp5 {
         flex-direction: column;
-    }
-
-    .a2 {
-        font-size: 0.8rem;
     }
 
     .fr1 {
@@ -467,8 +470,6 @@ ul {
         margin-top: 0; 
         font-size: 1rem;
     }
-
-
 
     .hp6 {
         width: 95%;
@@ -498,10 +499,6 @@ ul {
 
     .a3 {
         display: none;
-    }
-
-    .sp4 {
-        font-size: 1.2rem;
     }
 
     .cnt3 {
@@ -655,6 +652,48 @@ ul {
 @media (max-width: 574px) {
     .cwdh {
         padding: 50px 20px 50px 20px;
+    }
+
+    h3 {
+        margin: 1.5rem 0 1rem;
+    }
+
+    .sp4 {
+        font-size: 1.44rem;
+    }
+
+    ul {
+        font-size: 1.08rem;
+        margin: 0.6rem 0 1rem;
+    }
+
+    .h4-1 {
+        font-size: 1.08rem;
+        margin: 0.6rem 0 1rem;
+    }
+
+    p {
+        font-size: 1.08rem;
+    }
+
+    .li-5::marker {
+        font-size: 1.44rem;
+    }
+
+    .hp5 {
+        margin: 0;
+    }
+
+    .p6 {
+        font-size: 1.8rem;
+    }
+        
+    .p8 {
+        font-size: 1.4rem;
+    }
+
+    .p7 {
+        font-size: 1.4rem;
     }
 
     .p4 {
