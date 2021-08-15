@@ -91,6 +91,9 @@ a:hover {
 
 .cwdh {
     padding: 50px 100px 50px 100px;
+    max-width: 942px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -273,10 +276,9 @@ ul {
     padding-bottom: 50px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
     text-align: right;
     align-items: center;
-    height: 209px;
+    height: 102px;
 }
 
 .fr2 {
@@ -284,7 +286,6 @@ ul {
     border-radius: 30px;
     font-size: 1.8rem;
     max-width: 500px;
-    position: absolute;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -410,12 +411,11 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
-    margin-top: 117px;
+    margin-bottom: 60px;
 }
 
 .cw {
-    max-width: 942px;
-    margin: 0 100px 0 100px;
+    padding: 50px 100px 50px 100px;
 }
 
 .a3--modify {
@@ -471,7 +471,7 @@ ul {
 
 
     .hp6 {
-        width: 100%;
+        width: 95%;
     }
 
     .hp7 {
@@ -488,7 +488,7 @@ ul {
 
 @media (max-width: 768px) {
     .hp6 {
-        width: 88%;
+        width: 93%;
     }
 
     .fr5 {
@@ -523,12 +523,12 @@ ul {
         margin: 30px auto;
         flex-direction: column;
         text-align: center;
-        margin-top: 742px;
+        margin-top: 517px;
     }
 
     .fr1-1 {
         margin-top: 0;
-        height: 700px;
+        height: 565px;
     }
 
     .cwdh {
@@ -571,10 +571,6 @@ ul {
         justify-content: center;
         margin-top: 100px;
         padding: 0 0 50px;    
-    }
-
-    .img1 {
-        margin: 0 auto;
     }
 
     .li-1 {
@@ -653,16 +649,16 @@ ul {
     .p2 {
         margin-top: 50px;
     }
-
-    .cw {
-        margin: 0 10px 0 10px;
-    }
 }
 
 
 @media (max-width: 574px) {
     .cwdh {
         padding: 50px 20px 50px 20px;
+    }
+
+    .p4 {
+        width: 100%;
     }
 
     .ul-1 {
@@ -678,5 +674,9 @@ ul {
         margin-left: 0;
         margin-top: 30px;
         width: 100%;
+    }
+
+    .hp6 {
+        width: 85%;
     }
 }
