@@ -11,47 +11,55 @@ body {
     color: hsl(227, 76%, 31%);
     width: 100%;
     height: 1000px;
-    font-family: "HelveticaNeueCyr", sans-serif;
+    font-family: 'HelveticaNeueCyr',sans-serif;
     font-weight: 400;
 }
 
 
 @font-face { 
     font-family: "HelveticaNeueCyr", sans-serif; 
-    src: url('/fonts/Intro-Regular.otf') format('otf');
+    src: url('fonts/HelveticaNeueCyr-Bold.ttf') format('ttf');
     font-weight: 400; 
     font-style: normal; 
+    font-display: swap;
 }
 
-@font-face { 
-    font-family: "HelveticaNeueCyr", sans-serif; 
-    src: url('/fonts/Intro-Regular.otf') format('otf');
+@font-face {
+	font-family: 'Intro-Bold';
+	src: url('../fonts/intro-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/intro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/intro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/intro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/intro-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/intro-bold.svg#intro-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: "IntroRegular", sans-serif;
+    src: url('fonts/Intro-Regular.otf') format('otf');
+    font-style: normal; 
     font-weight: 400; 
-    font-style: normal; 
-}
-
-@font-face { 
-    font-family: "HelveticaNeueCyrBold", sans-serif; 
-    src: url('/fonts/Intro-Bold.otf') format('otf');
-    font-weight: 700; 
-    font-style: normal; 
-}
-
+    font-display: swap;
+} 
+    
 h1 {
     font-size: 3.6rem;
     text-transform: uppercase;
+    font-family: "Intro-Bold", sans-serif; 
 }
 
 .p3 {
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 1.2;
-    
+    max-width: 602px;
+    display: inline-block;
 }
 
 p {
     font-size: 1.4rem;
     color: #000;
+    margin: 0.5rem 0 2rem;
 }
 
 .h4-1 {
@@ -92,7 +100,7 @@ a:hover {
 }
 
 .cwdh {
-    padding: 50px 100px 50px 100px;
+    padding: 5.6rem 0 10.5rem;
     max-width: 942px;
     margin-left: auto;
     margin-right: auto;
@@ -125,13 +133,13 @@ a:hover {
 .a4 {
     font-size: 1.4rem;
     text-transform: uppercase;
-    font-family: "HelveticaNeueCyrBold", sans-serif; 
+    font-family: "Intro-Bold", sans-serif;  
 }
 
 .a2-1 {
     font-weight: 700;
     font-size: 2.4rem;
-    font-family: "HelveticaNeueCyrBold", sans-serif; 
+    font-family: "Intro-Bold", sans-serif; 
 }
 
 .p6{
@@ -256,7 +264,8 @@ ul {
 
 .h2-1 {
     text-transform: uppercase;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
+    font-family: "Intro-Bold", sans-serif; 
 }
 
 .fr7 {
@@ -279,7 +288,7 @@ ul {
 }
 
 .fr1 {
-    padding-bottom: 9.5rem;
+    padding-bottom: 14.5rem;
     position: relative;
     display: flex;
     text-align: right;
@@ -290,6 +299,7 @@ ul {
 .fr2 {
     border: 1px solid hsl(227, 76%, 31%);
     border-radius: 30px;
+    padding: 4.5rem 5rem 4rem;
     font-size: 1.8rem;
     max-width: 500px;
     background: white;
@@ -365,7 +375,8 @@ ul {
 
 .a2 {
     font-size: 2rem;
-    font-family: "HelveticaNeueCyrBold", sans-serif; 
+    font-weight: 700;
+    font-family: "Intro-Bold", sans-serif; 
 }
 
 .p2 {
@@ -403,7 +414,7 @@ ul {
 }
 
 .fr5 {
-    margin-top: 10px;
+    margin: 1rem 0 0.5rem;
 }
 
 .hp1 {
@@ -459,8 +470,9 @@ ul {
 @media (max-width: 1024px) {
     .hp5 {
         flex-direction: column;
-    }
-
+        padding: 0 20px;
+    }    
+    
     .fr1 {
         justify-content: center;
     }
@@ -469,10 +481,6 @@ ul {
         color: #11328d;
         margin-top: 0; 
         font-size: 1rem;
-    }
-
-    .hp6 {
-        width: 95%;
     }
 
     .hp7 {
@@ -484,13 +492,14 @@ ul {
         position: static;
         
     }
+
+    .hp6 {
+        width: auto;
+    }
 }
 
 
 @media (max-width: 768px) {
-    .hp6 {
-        width: 93%;
-    }
 
     .fr5 {
         display: flex;
@@ -515,8 +524,11 @@ ul {
         display: none;
     }
 
+    .hp5 {
+        margin: 0;
+    }
+
     .fr2 {
-        padding: 2rem 1rem 2rem;
         margin: 30px auto;
         flex-direction: column;
         text-align: center;
@@ -701,7 +713,6 @@ ul {
     }
 
     .ul-1 {
-        margin-left: -38px;
         text-align: center;
         flex-direction: column;
     }    
@@ -713,9 +724,5 @@ ul {
         margin-left: 0;
         margin-top: 30px;
         width: 100%;
-    }
-
-    .hp6 {
-        width: 85%;
     }
 }
