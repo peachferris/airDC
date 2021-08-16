@@ -66,6 +66,10 @@ p {
     font-size: 1.8rem;
 }
 
+.hr2 {
+	padding: 0 20px;
+}
+
 h3 {
     font-size: 2rem;
 }
@@ -471,6 +475,7 @@ ul {
     .hp5 {
         flex-direction: column;
         padding: 0 20px;
+	margin: 0;
     }    
     
     .fr1 {
@@ -522,10 +527,6 @@ ul {
 
     .fr3-1 {
         display: none;
-    }
-
-    .hp5 {
-        margin: 0;
     }
 
     .fr2 {
