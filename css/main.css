@@ -520,6 +520,7 @@ ul {
     display: inline-block;
     margin: 0.5rem 0 1rem;
     vertical-align: super;
+    margin-top: 20px;
 }
 
 .fa-phone:before {
