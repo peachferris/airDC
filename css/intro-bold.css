@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Intro-Bold';
-	src: url('../fonts/intro-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/intro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/intro-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/intro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/intro-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/intro-bold.svg#intro-bold') format('svg'); /* Chrome < 4, Legacy iOS */
-}
