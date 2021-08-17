@@ -18,7 +18,15 @@ body {
 
 @font-face { 
     font-family: "HelveticaNeueCyr", sans-serif; 
-    src: url('../fonts/HelveticaNeueCyr-Bold.ttf') format('ttf');
+    src: url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal; 
+    font-display: swap;
+}
+
+@font-face { 
+    font-family: "HelveticaNeueCyr-Bold", sans-serif; 
+    src: url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
     font-weight: 400; 
     font-style: normal; 
     font-display: swap;
@@ -65,9 +73,11 @@ p {
 
 .h4-1 {
     font-size: 1.8rem;
+    margin: 1.5rem 0 1rem;
 }
 
 h3 {
+    margin: 0;
     font-size: 2rem;
 }
 
@@ -86,7 +96,7 @@ a:hover {
 }
 
 .hr1 {
-    height: 100%;
+    height: 427px;
     background-image: url(../img/bgp.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -113,6 +123,16 @@ a:hover {
     align-items: center;
 }
 
+.a3 > i {
+    font-size: 2rem;
+}
+.a3-1 > i {
+    font-size: 2rem;
+}
+.a4-1 > i {
+    font-size: 2rem;
+}
+
 .cnt3 {
     text-align: right;
 }
@@ -123,12 +143,10 @@ a:hover {
 }
 
 .sp3 {
+    font-family: "Intro-Bold", sans-serif; 
+    font-size: 2.2rem;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #11328d;
-    margin: 10px auto;
-    display: block;
-    text-align: center;
+    margin: 0.6rem 0 0;
 }
 
 .a4 {
@@ -143,9 +161,6 @@ a:hover {
     font-family: "Intro-Bold", sans-serif; 
 }
 
-.p6{
-    text-align: center;
-}
 .p6-a:hover{
     transition: all 0.3s ease;
     color: #000;
@@ -158,6 +173,7 @@ a:hover {
 
 .li-5::marker {
     font-size: 2.4rem;
+    font-family: "HelveticaNeueCyr-Bold", sans-serif; 
 }
 
 .li-1 {
@@ -232,8 +248,9 @@ ul {
 }
 
 .a1 {
-    font-weight: 700;
     font-size: 2rem;
+    font-weight: bold;
+    color: hsl(227, 76%, 31%);
 }
 
 .hp7 {
@@ -250,20 +267,23 @@ ul {
 
 .p6 {
     font-size: 2.2rem;
+    text-align: center;
     color: #11328d;
-    font-family: 'Intro-Regular';
+    font-family: "Intro-Bold", sans-serif; 
 }
 
 .p6-a {
     font-size: 1.8rem;
     font-weight: 400;
+    font-family: "Intro-Regular", sans-serif; 
     color: #11328d;
 }
 
 .hp6 {
+    border: 1px solid hsl(227, 76%, 31%);
     border-radius: 30px;
-    border: 1px solid #11328d;
-    padding: 10px 20px;
+    padding: 4.5rem 5rem 4rem;
+    font-size: 1.8rem;
     width: 60%;
 }
 
@@ -275,17 +295,27 @@ ul {
 
 .h2-1 {
     text-transform: uppercase;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-family: "Intro-Bold", sans-serif; 
+}
+
+.h2 {
+    font-size: 2.8rem;
+    margin: 0 0 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Intro-Regular", sans-serif; 
 }
 
 .fr7 {
     display: block;
     text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: hsl(227, 76%, 31%);
 }
 
 .hp5 {
-    margin: 5rem auto 20rem;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -326,7 +356,8 @@ ul {
 
 .sp4 {
     font-size: 2.4rem;
-    font-weight: bold;
+    font-family: "HelveticaNeueCyr-Bold", sans-serif; 
+    font-weight: 700;
     margin: -1rem 0 0.6rem;
     color: #000;
 }
@@ -338,11 +369,13 @@ ul {
 }
 
 .hp9 {
-    height: 150px;
-    margin-top: 30px;
-    padding: 20px;
+    padding: 4.5rem 3rem;
+    font-size: 1.8rem;
+    color: hsl(227, 76%, 31%);
+    border-radius: 30px;
+    text-align: center;
     background: linear-gradient(45deg, #f5fbff, #dff3ff);
-    border-radius: 15px;
+    
 }
 .sp1 {
     color: #11328d;
@@ -352,8 +385,13 @@ ul {
 
 .hp8 {
     background: linear-gradient(45deg, #f5fbff, #dff3ff);
-    border-radius: 15px;
-    padding: 20px;
+    padding: 4.5rem 2rem;
+    font-size: 2.2rem;
+    color: hsl(227, 76%, 31%);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0 0 5rem;
 }
 
 .b1::before {
@@ -393,7 +431,9 @@ ul {
 }
 
 .p2 {
-    font-size: 0.9rem;
+    color: black;
+    font-size: 1.4rem;
+    margin: 4px 0 0;
 }
 .fr3-1 {
     order: 1;
@@ -464,9 +504,7 @@ ul {
 
 .far {
     display: inline-block;
-    margin-top: 5px;
-    font-size: 1.2rem;
-    margin-right: 5px;
+    margin: 0.5rem 0 1rem;
 }
 
 .fa-phone:before {
@@ -695,7 +733,6 @@ ul {
 
     .h4-1 {
         font-size: 1.08rem;
-        margin: 0.6rem 0 1rem;
     }
 
     p {
