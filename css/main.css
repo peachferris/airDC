@@ -316,7 +316,7 @@ ul {
     display: block;
     text-align: center;
     flex-direction: column;
-    width: 236px;
+    width: 225px;
     font-size: 1.2rem;
     color: hsl(227, 76%, 31%);
 }
@@ -362,7 +362,6 @@ ul {
 
 .fr4 {
     max-width: 207px;
-    padding-left: 20px;
 }
 
 .fa-envelope {
@@ -516,9 +515,9 @@ ul {
     margin-right: 5px;
 }
 
-.far {
+.fa-envelope {
+    margin-top: 15px;
     display: inline-block;
-    margin: 0.5rem 0 1rem;
     vertical-align: super;
 }
 
