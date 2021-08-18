@@ -650,8 +650,12 @@ ul {
         justify-content: center;
     }
     
+    .hr1 {
+        height: 313px;
+    }
+
     html {
-	font-size: 6px;
+	    font-size: 6px;
     }
 	
     .a4-1 {
@@ -784,29 +788,8 @@ ul {
         margin: 1.5rem 0 1rem;
     }
 
-    .sp4 {
-        font-size: 1.44rem;
-    }
-
     ul {
-        font-size: 1.08rem;
         margin: 0.6rem 0 1rem;
-    }
-
-    .h4-1 {
-        font-size: 1.08rem;
-    }
-
-    .h2 {
-        font-size: 1.68rem;
-    }
-
-    p {
-        font-size: 1.08rem;
-    }
-
-    .li-5::marker {
-        font-size: 1.44rem;
     }
 
     .li-5 {
@@ -817,30 +800,18 @@ ul {
         margin: 0 ;
     }
 
-    .p5 {
-        font-size: 1.08rem;
-    }
-
     .hp4 {
         max-height: 350px;
-    }
-
-    .p6 {
-        font-size: 1.8rem;
-    }
-        
-    .p8 {
-        font-size: 1.4rem;
-    }
-
-    .p7 {
-        font-size: 1.4rem;
     }
 
     .p4 {
         width: 100%;
     }
 
+    .hr1 {
+        height: 313px;
+    }
+    
     .ul-1 {
         text-align: center;
         flex-direction: column;
